@@ -2,8 +2,8 @@ package com.bbu.gmall.user.controller;
 
 
 
-import com.bbu.gmall.Beans.UmsMember;
-import com.bbu.gmall.Service.MemberService;
+import com.bbu.gmall.beans.UmsMember;
+import com.bbu.gmall.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

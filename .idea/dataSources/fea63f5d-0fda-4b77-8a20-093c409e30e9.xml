@@ -1716,7 +1716,7 @@
     <column id="365" parent="212" name="id">
       <Position>1</Position>
       <Comment>编号</Comment>
-      <DataType>bigint(20)|0s</DataType>
+      <DataType>int(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
@@ -1731,7 +1731,7 @@
     <column id="367" parent="212" name="catalog2_id">
       <Position>3</Position>
       <Comment>二级分类编号</Comment>
-      <DataType>bigint(20)|0s</DataType>
+      <DataType>int(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="368" parent="212" name="PRIMARY">

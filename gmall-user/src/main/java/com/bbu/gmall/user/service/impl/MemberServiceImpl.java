@@ -1,7 +1,7 @@
 package com.bbu.gmall.user.service.impl;
 
-import com.bbu.gmall.Beans.UmsMember;
-import com.bbu.gmall.Service.MemberService;
+import com.bbu.gmall.beans.UmsMember;
+import com.bbu.gmall.service.MemberService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,89 +1,378 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog2Mapper.java" line="2" />
+    <bookmark url="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsBaseCatalog2Mapper.java" line="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0970214f-23d4-4c1e-9207-d312ccfcac33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/AttrService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/CatalogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SpuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseAttrInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog1Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog3Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseSaleAttrMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductImageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductSaleAttrMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/AttrServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/CatalogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/SpuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/AttrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/CatalogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/SpuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/java/com/bbu/gmall/item/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/1466134037230.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/1f80c3d6fabfd3418e54b005312c00b5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/2017-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/2017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/2e19336b961586468ef36dc9f7199d4f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/3130323235303039372d313439343631373831333737363031343436353833_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/31333238343438363638385f7031343139383436323836343333_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/31353536363035383838375f7031343639393139313530303839_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/31353630323636363637315f7031343635383936363632333730_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/36313339393636322d33383232363231353037303333373238343937_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/36860afb69afa241beeb33ae86678093.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/4a79b87a68623d4e8a73aff3e25fa99b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/54b8871eNa9a7067e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/54b8872dNe37a9860.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/54b8875fNad1e0c4c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5698dc03N23f2e3b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5698dc16Nb2ab99df.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/56a0a994Nf1b662dc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/56a89b8fNfbaade9a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/56ca6792N64e5eafc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/571734fdN2c8bfdb5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/574d4bf8N700d614f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/577dd103N67caec65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5799a118N7da215bc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/579ef71eNc5bce6cf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/579f23ccN5e22e48f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/57cfb628N297332ea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5804908cNd869da01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5825a5a6Nde8ecb75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/583eb3dbN1df5d225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/584fcc3eNdb0ab94c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/586d9acaNf1123347.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5874a54dNcec29924.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5874a555Ne8192324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58afca92Ncb38b8b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58bf6956N07a174eb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58c9f736N4e611532.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58ccfeb4N58fd70f0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58cfadb2Ndb66ef86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58d3c4fcNd94a9537.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58d862f3Nb2291131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58dcd97eN5cfbd0de.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58ec3c6eN4f9970ec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58f9c1bbN6965b210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59015444N27317512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/591582a1N44d6d0e8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5919637aN271a1301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5926991bN5cbadbde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59277e26Nfaca3cae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59279a1bN999990f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5929482aN80510784.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/592e7127N2313be91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/592e9b89N008ee685.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/592e9f09N5bd34e60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/592ee10bN1dea85b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5930ff6dN0abb0b30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59365592Nc6fe3227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/593e1fdaN28207ecb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59433015N866b682e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/594a358cN71d43ef0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5959a860Nd7c3a633.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5959f94dN8804eb46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/596f2dfcN17900184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/597ee771Nd8cd840e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/597fd125N28f99324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5985525bN8ec74aba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59880667Nc3ecfba2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/598d474bN3e3dde68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/599079abNa63762a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/599a806bN9d829c1c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59a37d83Ne80e527f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59a51bf6Nb8e478cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ad0fabN2634aa72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59b6538cN394d8cbb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59bfbe3cN63e4979b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59c0e2afNe6b7016a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59cc9591N5ce2ba2e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ce706fN6f3f2a4a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59dd8156N3d39c5d5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ddfcb1Nc3edb8f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded60eN3110f3a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded620Nfc0ab489.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded626N7c4cb0a3(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded626N7c4cb0a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded626Nda317ce2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded626Ne3c69b70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62cN6e9ac17c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62dN7e28abc5 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62dN7e28abc5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62dNfed003a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded682N99d4efcc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59e55e01N369f98f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59e99c57Ne1056e92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59e9b89bNf3f066a0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59e9bbecNe58deb0b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb0df9Nd66d7585.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e23N6c63b4ea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e44N0f65afb8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e45N462c0a2f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e46Nb58fc1ba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e54N9518347e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e56N3fcf5478.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ec0131Nf239df75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ed97f0N0810fae9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edbbf0Ne7e848c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edbbf5Nb8fe2f00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edbbf5Ne0e97545.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfde5Nd6b2eeec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfdf4Ncd1e9097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfdfcNe72f8b35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfdffNe3f35b75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfe00N0e8c9a2f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfe00N18280283.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfe01N0c0b49cf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eea4ffNfe6271f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb49Nfc2d1436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb60N51a2e6c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb61N56f65626.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb62N9b058172.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb63N035a6300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb64Na67961ff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f0427fN3ada7866.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f16e15Ndfc05e79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b961Nc55260a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96dNdbbcfb43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96dNff5d8def.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96eN385f8ca5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96eN56cd24dc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96eN8b7e8fae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96fN67ba96f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b970N903fa8d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f2d175N26c13dd1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d654Nfcf1f120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d66cN9a0ef348.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d66dN045d4a51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d66dN56606681.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d66dN8597cc84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f6a384Nf2289c0d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f6e051N89d361f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f814e7N34bad14a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f815a3N45b22491.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f81727N622de50e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f847a8Nfd15df61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f85b47Nc7a82590.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f964cbN88dc1222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f994e4N84199d91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59fa8badNdb1b317e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59fab4e4Nff5ffb05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59fac6f8N9099950f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59fe85ddN280ddf1a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a002ba3N126c2f73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a016416N62c825e9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a016448N87be4827.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0547fcN92c93957.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054809N97546816.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054815N64e6dc84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054816Nd8c5ae42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054816Nddc0ec46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054817Na82392d7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054818N3176323e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a05481aN8ba33038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a055f60Nac74f518.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a05a299Nf9e5af06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a068a75N20bddaec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06b868Nf3f72d02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06b8afN2b65caed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06b993Nceef8000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06c2d7N0ab96524.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06c340N03fa254d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0717e2N8cf04467.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a071cf4N7d87ee5a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a07ca99N6b2d7aab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a07ca9cN0d94db58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a084a1aNa1aa0a71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942d8N7265b647.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942d9N6147e3f0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942d9Nd22f8a9c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942daN090b3406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942daN4abbd574.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942dbNe7b03ec3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0950c8N0b273e29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0afeddNb34732af.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0c0bdeN7d5fb661.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0cee42Ndde54756.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0ceebdNeac43da1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0d4181Nf70c5ebf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0d47c6N9a39a6ca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0d4aa3N09ae70b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0e4f24Ned35e1cf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0e9616Nd5f8770f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125861N0d1919b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125889N8f23fee1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a12588dN18850f0d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a12588eN24965b9c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a12588fNa21bad0c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125890Ncf84abea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125892N8dc9ab04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125893Neaf6da9a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a12873eN41754123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a128eb5N17547a87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a128f16N8c26ce84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a14f5d5Nb20384f9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/6a645f3438653131303136363135633031343435353936373635323334_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/6a645f3539646565346232353163643631353130383139343135343432_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/7270ffc3baecdd448958f9f5e69cf60f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/73637134313531343537343034363439373539_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/7a797171353831333939383236383733373130_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/81a6326edc82d343a5a8860a6970f93b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/90a6fa41d0d46b4fb0ff6907ca17c478.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/9224fcea62bfff479a6712ba3a6b47cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/a400e3d61d5645459f769b00d9f431e7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/afb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/animaite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/asma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/at.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/b769782fe4ecca40913ad375a71cb92d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/c688c683503b0547af23704aaec9c680.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/e4ed3606843f664591ff1f68f7fda12d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/eb0df.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/efod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ewm_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ewm_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ewm_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ewm_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/f5831b9848b32440b381bcd30a3d96c7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/f64963b63d6e5849977ddd6afddc1db5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/fsma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ggg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/gwc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/herder-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/https-%2F%2Fitem.m.jd.com%2Fproduct%2F5544038.html-pc_source=pc_productDetail_5544038-118-1-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/huawei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/igg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/iid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/iig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/iii.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/iin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/inn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/logo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ngi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/nnn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/oppo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/qglb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/shop_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/shop_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/shop_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/shop_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sj_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sj_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sj_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sj_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/smaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/smaaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/smabb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/start.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/tome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/toolbars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ys.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/zj_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/zj_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/zj_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/zj_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/jquery1.9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/spuId_73.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/scss/SHOUhou.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/scss/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/scss/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/scss/shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsProductSaleAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuSaleAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper/PmsProductSaleAttrMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper/PmsSkuInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/test/java/com/bbu/gmall/manage/GmallManageServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/SkuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/utils/PmsUploadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/tracker.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-service-util/src/main/java/com/bbu/gmall/manage/conf/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-service-util/src/main/java/com/bbu/gmall/manage/util/RedisUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fea63f5d-0fda-4b77-8a20-093c409e30e9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fea63f5d-0fda-4b77-8a20-093c409e30e9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/OmsCartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/OmsCartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/OmsCompanyAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/OmsCompanyAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/OmsOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/OmsOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/OmsOrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/OmsOrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PaymentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PaymentInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsBaseAttrInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseAttrInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsBaseAttrValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseAttrValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsBaseCatalog1.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseCatalog1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsBaseCatalog2.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseCatalog2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsBaseCatalog3.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseCatalog3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsBaseSaleAttr.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseSaleAttr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsProductImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsProductSaleAttr.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductSaleAttr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsProductSaleAttrValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductSaleAttrValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsSkuAttrValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuAttrValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsSkuImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsSkuInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsSkuSaleAttrValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuSaleAttrValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/UmsMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/UmsMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/UmsMemberReceiveAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/UmsMemberReceiveAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/OmsCartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/OmsCartItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/OmsCompanyAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/OmsCompanyAddress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/OmsOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/OmsOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/OmsOrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/OmsOrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PaymentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PaymentInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseAttrInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseAttrInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseAttrValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseAttrValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseCatalog1.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseCatalog1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseCatalog2.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseCatalog2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseCatalog3.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseCatalog3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseSaleAttr.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBaseSaleAttr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsBrand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsProductImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsProductImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsProductInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsProductInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsProductSaleAttr.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsProductSaleAttr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsProductSaleAttrValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsProductSaleAttrValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsSkuAttrValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsSkuAttrValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SpuService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsSkuImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsSkuImage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsSkuInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsSkuInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsSkuSaleAttrValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/PmsSkuSaleAttrValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/UmsMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/UmsMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/UmsMemberReceiveAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Beans/UmsMemberReceiveAddress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Service/MemberService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-service/src/main/java/com/bbu/gmall/user/mapper/UmsMemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/java/com/bbu/gmall/user/mapper/UmsMemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-service/src/main/java/com/bbu/gmall/user/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/java/com/bbu/gmall/user/service/impl/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-web/src/main/java/com/bbu/gmall/user/controller/UmsMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/src/main/java/com/bbu/gmall/user/controller/UmsMemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/controller/UmsMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/controller/UmsMemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/mapper/UmsMemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/mapper/UmsMemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Service/SpuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/bbu/gmall/Service/SpuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/GmallManageServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/GmallManageServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseAttrInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsBaseAttrInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseAttrValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsBaseAttrValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsBaseCatalog1Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog2Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsBaseCatalog2Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog3Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsBaseCatalog3Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseSaleAttrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsBaseSaleAttrMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductImageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsProductImageMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsProductInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductSaleAttrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsProductSaleAttrMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/AttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/CatalogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/CatalogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/SpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/SpuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/test/java/com/bbu/gmall/gmallmanageservice/GmallManageServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/AttrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/AttrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/SpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/SpuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/test/java/com/bbu/gmall/manage/GmallManageWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/src/test/java/com/bbu/gmall/manage/GmallManageWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-service-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored path="$PROJECT_DIR$/gmall-user/target/" />
@@ -97,6 +386,7 @@
     <ignored path="$PROJECT_DIR$/gmall-manage-service/target/" />
     <ignored path="$PROJECT_DIR$/gmall-manage-web/target/" />
     <ignored path="$PROJECT_DIR$/fastdfs-client-java/target/" />
+    <ignored path="$PROJECT_DIR$/gmall-item-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,13 +420,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="gmall_study: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="gmall_study@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="gmall_study: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="pms_product_info: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -144,99 +427,111 @@
     <session id="-57131928">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.146" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.51" value="2" />
-          <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.53" value="2" />
+          <entry key="project.open.time.54" value="2" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="15" />
+          <entry key="class" value="23" />
+          <entry key="conf" value="2" />
+          <entry key="html" value="10" />
           <entry key="iml" value="4" />
-          <entry key="java" value="312" />
-          <entry key="md" value="6" />
+          <entry key="java" value="506" />
+          <entry key="js" value="3" />
+          <entry key="md" value="8" />
           <entry key="pms_base_attr_info" value="5" />
           <entry key="pms_base_attr_value" value="7" />
           <entry key="pms_base_catalog2" value="1" />
           <entry key="pms_base_catalog3" value="4" />
-          <entry key="pms_product_info" value="1" />
-          <entry key="properties" value="33" />
-          <entry key="sql" value="1" />
+          <entry key="pms_product_image" value="3" />
+          <entry key="pms_product_info" value="8" />
+          <entry key="pms_product_sale_attr" value="6" />
+          <entry key="pms_product_sale_attr_value" value="9" />
+          <entry key="pms_product_vertify_record" value="1" />
+          <entry key="pms_sku_attr_value" value="14" />
+          <entry key="pms_sku_image" value="12" />
+          <entry key="pms_sku_info" value="26" />
+          <entry key="pms_sku_sale_attr_value" value="12" />
+          <entry key="properties" value="48" />
+          <entry key="sql" value="2" />
+          <entry key="ts" value="1" />
+          <entry key="ums_member" value="1" />
           <entry key="ums_member_receive_address" value="1" />
-          <entry key="xml" value="80" />
+          <entry key="xml" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="15" />
-          <entry key="Database Element" value="19" />
+          <entry key="CLASS" value="23" />
+          <entry key="Database Element" value="110" />
+          <entry key="HTML" value="10" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="312" />
-          <entry key="Markdown" value="6" />
-          <entry key="Properties" value="33" />
-          <entry key="Scratch" value="1" />
-          <entry key="XML" value="80" />
+          <entry key="JAVA" value="506" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Markdown" value="8" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="48" />
+          <entry key="Scratch" value="2" />
+          <entry key="TypeScript" value="1" />
+          <entry key="XML" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3403" />
-          <entry key="md" value="161" />
-          <entry key="properties" value="756" />
+          <entry key="cell" value="2" />
+          <entry key="conf" value="117" />
+          <entry key="html" value="1091" />
+          <entry key="java" value="6966" />
+          <entry key="js" value="25" />
+          <entry key="md" value="262" />
+          <entry key="properties" value="965" />
+          <entry key="sql" value="7" />
           <entry key="txt" value="17" />
-          <entry key="xml" value="1166" />
+          <entry key="xml" value="2299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3403" />
-          <entry key="Markdown" value="161" />
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Properties" value="756" />
-          <entry key="SQL" value="4" />
-          <entry key="XML" value="1162" />
+          <entry key="HTML" value="1091" />
+          <entry key="JAVA" value="6966" />
+          <entry key="JavaScript" value="25" />
+          <entry key="Markdown" value="262" />
+          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="Properties" value="965" />
+          <entry key="SQL" value="12" />
+          <entry key="Scratch" value="9" />
+          <entry key="XML" value="2287" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/GmallManageWebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/GmallManageServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/SpuController.java">
+        <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/test/java/com/bbu/gmall/manage/GmallManageServiceApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="154">
+              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,13 +540,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/SpuServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/gmall-comment-util/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -261,8 +553,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -273,6 +566,10 @@
       <find>orh</find>
       <find>myba</find>
       <find>test</find>
+      <find>skuValue</find>
+      <find>va</find>
+      <find>values</find>
+      <find>je</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -281,57 +578,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/service/impl/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/controller/UmsMemberController.java" />
-        <option value="$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/mapper/UmsMemberMapper.java" />
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/Beans/PmsBaseCatalog3.java" />
-        <option value="$PROJECT_DIR$/gmall-api/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-service-util/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-web-util/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-user/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-user-web/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-user-service/src/main/java/com/bbu/gmall/user/Service/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-user-service/src/main/java/com/bbu/gmall/user/impl/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-user-service/src/main/java/com/bbu/gmall/user/service/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-user/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/gmall-user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-comment-util/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-user-service/src/main/java/com/bbu/gmall/user/GmallUserServiceApplication.java" />
-        <option value="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/gmall-user-web/src/main/java/com/bbu/gmall/user/GmallUserWebApplication.java" />
-        <option value="$PROJECT_DIR$/gmall-user-service/src/main/java/com/bbu/gmall/user/service/impl/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-user-web/src/main/java/com/bbu/gmall/user/controller/UmsMemberController.java" />
-        <option value="$PROJECT_DIR$/gmall-user-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-manage-web/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/GmallManageWebApplication.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog1Mapper.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog3Mapper.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog2Mapper.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/GmallManageServiceApplication.java" />
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/CatalogService.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/CatalogController.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/CatalogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseCatalog3.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseAttrInfoMapper.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseAttrValueMapper.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/service/SpuService.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductInfoMapper.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/SupServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductSaleAttr.java" />
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SpuService.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductImage.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/utils/PmsUploadUtil.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductSaleAttrValueMapper.java" />
         <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/SpuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/AttrService.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseSaleAttrMapper.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/AttrServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/AttrController.java" />
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductSaleAttr.java" />
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductInfo.java" />
+        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductSaleAttrValue.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/GmallManageServiceApplication.java" />
         <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/SpuController.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/AttrController.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/AttrServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuInfo.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuAttrValue.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuAttrValueMapper.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuSaleAttrValue.java" />
+        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuInfo.java" />
+        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuImage.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuImageMapper.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/SkuController.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/test.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/test/java/com/bbu/gmall/gmallmanageservice/GmallManageServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/gmall-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/gmall-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-item-web/src/main/java/com/bbu/com/item/GmallItemWebApplication.java" />
+        <option value="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/gmall-item-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gmall-item-web/src/main/java/com/bbu/com/item/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SpuService.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/resources/Mapper/PmsProductSaleAttr.xml" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/SpuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsProductSaleAttrMapper.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fea63f5d-0fda-4b77-8a20-093c409e30e9/console.sql" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper/PmsProductSaleAttrMapper.xml" />
+        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SkuService.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/SkuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuInfoMapper.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper/PmsSkuInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/gmall-item-web/src/main/java/com/bbu/gmall/item/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/skuid_73.js" />
+        <option value="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/spuId_73.js" />
+        <option value="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/item.html" />
+        <option value="$PROJECT_DIR$/gmall-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-service-util/src/main/java/com/bbu/gmall/util/redisUtil.java" />
+        <option value="$PROJECT_DIR$/gmall-service-util/src/main/java/com/bbu/gmall/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/gmall-service-util/src/main/java/com/bbu/gmall/conf/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/GmallManageServiceApplication.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/conf/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/conf/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-comment-util/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/src/test/java/com/bbu/gmall/manage/GmallManageServiceApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -350,15 +647,25 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gmall-comment-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gmall-comment-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="123" />
-    <option name="y" value="37" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1710" />
-    <option name="height" value="1020" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -480,9 +787,11 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -491,15 +800,90 @@
               <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-comment-util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall0105" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall0105" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -509,9 +893,9 @@
     <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;file://E:/ideaworkSpaces/gmall0105/gmall-user/src/main/java/com/bbu/gmall/user/controller/UserController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573912804567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574481730867" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/.mvn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -521,23 +905,32 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bbu.gmall.manage.mapper" />
+      <recent name="com.bbu.gmall.service" />
+      <recent name="com.bbu.gmall.gmallmanageservice.mapper" />
+      <recent name="com.bbu.gmall.manage.utils" />
+      <recent name="com.bbu.gmall.manage.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaworkSpaces\gmall0105\gmall-manage-service\src\main\java\com\bbu\gmall" />
+      <recent name="E:\ideaworkSpaces\gmall0105\gmall-item-web\src\main\resources\templates" />
+      <recent name="E:\ideaworkSpaces\gmall0105\gmall-item-web\src\main\resources\static" />
       <recent name="E:\ideaworkSpaces\gmall0105\gmall-user-service\src\main\java\com\bbu\gmall\user" />
       <recent name="E:\ideaworkSpaces\gmall0105\gmall-user\src\main\java\com\bbu\gmall\user" />
-      <recent name="E:\ideaworkSpaces\gmall0105\gmall-parent\src\main\java\Beans" />
-      <recent name="E:\ideaworkSpaces\gmall0105\gmall-api\src\main\java\com\bbu\gmall\Beans" />
-      <recent name="E:\ideaworkSpaces\gmall0105\gmall-user\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bbu.gmall" />
+      <recent name="com.bbu.gmall.manage" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bbu.gmall.user.controller" />
       <recent name="com.bbu.gmall.user.Service" />
       <recent name="com.bbu.gmall.Service" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.bbu.gmall.gmallmanageservice.mapper" />
-      <recent name="com.bbu.gmall.service" />
-      <recent name="com.bbu.gmall.manage.service" />
-      <recent name="com.bbu.gmall.Beans" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideaworkSpaces\gmall0105\gmall-manage-web\src\main\resources" />
+      <recent name="E:\ideaworkSpaces\gmall0105\gmall-manage-web\src\test\java\com\bbu\gmall\manage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -552,34 +945,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GmallManageServiceApplication">
-    <configuration name="All Features in: gmall-manage-web" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/gmall-manage-web" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="gmall-manage-web" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: gmall-manage-web" />
+  <component name="RunManager" selected="JUnit.GmallManageServiceApplicationTests">
+    <configuration name="GmallManageServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gmall-manage-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="com.bbu.gmall.manage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.bbu.gmall.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.bbu.gmall.manage.GmallManageServiceApplicationTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GmallUserServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gmall-user-service" />
+    <configuration name="GmallManageServiceApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gmall-manage-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bbu.gmall.user.*" />
+          <option name="PATTERN" value="com.bbu.gmall.manage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.bbu.gmall.user" />
-      <option name="MAIN_CLASS_NAME" value="com.bbu.gmall.user.GmallUserServiceApplicationTests" />
+      <option name="PACKAGE_NAME" value="com.bbu.gmall.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.bbu.gmall.manage.GmallManageServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallManageServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gmall-manage-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bbu.gmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bbu.gmall.gmallmanageservice" />
+      <option name="MAIN_CLASS_NAME" value="com.bbu.gmall.gmallmanageservice.GmallManageServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallManageServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gmall-manage-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bbu.gmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bbu.gmall.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.bbu.gmall.manage.GmallManageServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallManageWebApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gmall-manage-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bbu.gmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bbu.gmall.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.bbu.gmall.manage.GmallManageWebApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -591,9 +1031,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GmallItemWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-item-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bbu.gmall.item.GmallItemWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GmallManageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gmall-manage-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bbu.gmall.gmallmanageservice.GmallManageServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bbu.gmall.GmallManageServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallManageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gmall-manage-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bbu.gmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bbu.gmall.GmallManageServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -633,13 +1094,18 @@
       <item itemvalue="Spring Boot.GmallUserWebApplication" />
       <item itemvalue="Spring Boot.GmallManageServiceApplication" />
       <item itemvalue="Spring Boot.GmallManageWebApplication" />
-      <item itemvalue="JUnit.GmallUserServiceApplicationTests" />
-      <item itemvalue="Cucumber java.All Features in: gmall-manage-web" />
+      <item itemvalue="Spring Boot.GmallItemWebApplication" />
+      <item itemvalue="JUnit.GmallManageWebApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.GmallManageServiceApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.GmallManageServiceApplicationTests" />
+      <item itemvalue="JUnit.GmallManageServiceApplicationTests.contextLoads (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.All Features in: gmall-manage-web" />
-        <item itemvalue="JUnit.GmallUserServiceApplicationTests" />
+        <item itemvalue="JUnit.GmallManageServiceApplicationTests" />
+        <item itemvalue="JUnit.GmallManageServiceApplicationTests.contextLoads (1)" />
+        <item itemvalue="JUnit.GmallManageServiceApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.GmallManageWebApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -668,7 +1134,14 @@
       <workItem from="1573635460945" duration="3139000" />
       <workItem from="1573706025742" duration="3716000" />
       <workItem from="1573787655978" duration="5563000" />
-      <workItem from="1573911840179" duration="946000" />
+      <workItem from="1573911840179" duration="4500000" />
+      <workItem from="1573958702341" duration="25740000" />
+      <workItem from="1574046154037" duration="10181000" />
+      <workItem from="1574133968172" duration="17843000" />
+      <workItem from="1574215835181" duration="16342000" />
+      <workItem from="1574306414914" duration="14187000" />
+      <workItem from="1574391068261" duration="22219000" />
+      <workItem from="1574480041054" duration="1672000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试">
       <created>1573015090097</created>
@@ -681,15 +1154,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GmallUserServiceApplicationTests - 2019.11.10 at 12h 35m 10s.xml">
-      <configuration name="GmallUserServiceApplicationTests" configurationId="JUnit" />
+    <history-entry file="GmallManageServiceApplicationTests - 2019.11.22 at 21h 50m 36s.xml">
+      <configuration name="GmallManageServiceApplicationTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Features_in__gmall-manage-web - 2019.11.14 at 19h 45m 38s.xml">
-      <configuration name="All Features in: gmall-manage-web" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="GmallManageServiceApplicationTests - 2019.11.22 at 21h 51m 17s.xml">
+      <configuration name="GmallManageServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallManageServiceApplicationTests - 2019.11.22 at 21h 57m 31s.xml">
+      <configuration name="GmallManageServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallManageServiceApplicationTests - 2019.11.22 at 22h 00m 03s.xml">
+      <configuration name="GmallManageServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallManageServiceApplicationTests - 2019.11.22 at 22h 09m 37s.xml">
+      <configuration name="GmallManageServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallManageServiceApplicationTests - 2019.11.23 at 11h 39m 39s.xml">
+      <configuration name="GmallManageServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallManageServiceApplicationTests_contextLoads_(1) - 2019.11.23 at 11h 40m 21s.xml">
+      <configuration name="GmallManageServiceApplicationTests.contextLoads (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallManageServiceApplicationTests - 2019.11.23 at 11h 50m 37s.xml">
+      <configuration name="GmallManageServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallManageServiceApplicationTests_contextLoads_(1) - 2019.11.23 at 11h 54m 19s.xml">
+      <configuration name="GmallManageServiceApplicationTests.contextLoads (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallManageServiceApplicationTests - 2019.11.23 at 11h 55m 05s.xml">
+      <configuration name="GmallManageServiceApplicationTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106923000" />
+    <option name="totallyTimeSpent" value="218661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,9 +1198,45 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="30" width="1368" height="816" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.2534351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49682876" visible="true" weight="0.19839142" />
+      <window_info id="Structure" order="1" sideWeight="0.50317127" side_tool="true" weight="0.25603217" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28368795" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3503546" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3432624" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.32650074" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.4397163" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.46666667" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.24932976" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.15817694" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.18096514" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.25648856" />
       <window_info id="Structure" order="1" sideWeight="0.50111854" side_tool="true" weight="0.2272118" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -712,15 +1245,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.23279649" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35744682" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28368795" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.40425533" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.32650074" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.4397163" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="12" />
@@ -731,12 +1264,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.31300268" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.23053434" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.15817694" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.18900804" />
-    </layout>
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.16487935" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -756,225 +1289,234 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>pmsSkuInfo.getSkuImageList();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pmsSkuAttrValue.setSkuId(pmsSkuInfo.getId());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pmsSkuAttrValueMapper.insert(pmsSkuAttrValue);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pmsSkuInfo.getSkuAttrValueList()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pmsSkuInfo.getSkuSaleAttrValueList();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pmsSkuSaleAttrValueList</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pmsSkuInfo</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gmall-user-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="352">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user-web/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/SkuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="40" lean-forward="true" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="205">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user-service/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/gmall-item-web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+        <state relative-caret-position="315">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+    <entry file="das://fea63f5d-0fda-4b77-8a20-093c409e30e9/schema/gmall_study/table/pms_product_sale_attr">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user-web/src/main/java/com/bbu/gmall/user/GmallUserWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog1Mapper.java">
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuAttrValueMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog2Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseCatalog3Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/MemberService.java">
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuImageMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuSaleAttrValueMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="88">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/controller/UmsMemberController.java">
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsProductSaleAttrValueMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="88">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SpuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gmall-user/src/main/java/com/bbu/gmall/user/GmallUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="33" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE.jar!/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.class">
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/SpuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="263" column="44" selection-start-line="263" selection-start-column="44" selection-end-line="263" selection-end-column="44" />
+        <state relative-caret-position="182">
+          <caret line="86" column="75" selection-start-line="86" selection-start-column="75" selection-end-line="86" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="das://fea63f5d-0fda-4b77-8a20-093c409e30e9/schema/gmall_study/table/pms_base_catalog2">
+    <entry file="das://fea63f5d-0fda-4b77-8a20-093c409e30e9/schema/gmall_study/table/pms_product_sale_attr_value">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseCatalog3.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fea63f5d-0fda-4b77-8a20-093c409e30e9/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state>
+          <caret selection-end-line="7" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseCatalog2.java">
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsProductInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.5.2/mapper-3.5.2.jar!/tk/mybatis/mapper/entity/Example.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/rpc/proxy/javassist/JavassistProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/rpc/proxy/AbstractProxyInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/config/invoker/DelegateProviderMetaDataInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/rpc/protocol/InvokerWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/rpc/RpcResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/gitee/reger/spring-boot-starter-dubbo/1.0.10/spring-boot-starter-dubbo-1.0.10.jar!/com/reger/dubbo/rpc/filter/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/gitee/reger/spring-boot-starter-dubbo/1.0.10/spring-boot-starter-dubbo-1.0.10.jar!/com/reger/dubbo/rpc/filter/ProceedingJoinPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseAttrValueMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="88">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseAttrInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsProductSaleAttrMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductSaleAttrValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductSaleAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper/PmsProductSaleAttrMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/mapper/PmsSkuInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="das://fea63f5d-0fda-4b77-8a20-093c409e30e9/schema/gmall_study/table/pms_base_catalog3">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://fea63f5d-0fda-4b77-8a20-093c409e30e9/schema/gmall_study/table/pms_base_attr_info">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/service/SpuService.java" />
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductInfoMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.46/fastjson-1.2.46.jar!/com/alibaba/fastjson/JSON.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="434">
+          <caret line="402" column="25" selection-start-line="402" selection-start-column="25" selection-end-line="402" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SkuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/manage/service/impl/SkuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="84" column="78" selection-start-line="84" selection-start-column="78" selection-end-line="84" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper/PmsSkuInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fea63f5d-0fda-4b77-8a20-093c409e30e9/schema/gmall_study/table/pms_sku_attr_value">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-item-web/src/main/java/com/bbu/gmall/item/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="45" column="73" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/GmallManageWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -985,139 +1527,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://fea63f5d-0fda-4b77-8a20-093c409e30e9/schema/gmall_study/table/pms_base_attr_value">
+    <entry file="das://fea63f5d-0fda-4b77-8a20-093c409e30e9/schema/gmall_study/table/pms_sku_info">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/CatalogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/CatalogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/CatalogController.java">
+    <entry file="file://$PROJECT_DIR$/gmall-item-web/src/main/java/com/bbu/gmall/item/GmallItemWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/SpuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductImageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsProductSaleAttrMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/AttrController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/service/AttrService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/AttrServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/mapper/PmsBaseSaleAttrMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsBaseAttrInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductSaleAttr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsProductInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/service/impl/SpuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/gmallmanageservice/GmallManageServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/spuId_73.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state>
+          <caret column="12" selection-start-column="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/GmallManageWebApplication.java">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="143">
+          <caret line="17116" column="12" selection-start-line="17116" selection-start-column="12" selection-end-line="17116" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/bbu/gmall/manage/controller/SpuController.java">
+    <entry file="file://$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/item.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state relative-caret-position="590">
+          <caret line="1066" column="9" lean-forward="true" selection-start-line="1066" selection-start-column="9" selection-end-line="1066" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/bbu/gmall/beans/PmsSkuSaleAttrValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="122" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.0-M1/junit-platform-commons-1.6.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="362" selection-start-line="362" selection-end-line="362" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/RunWith.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-service-util/src/main/java/com/bbu/gmall/manage/conf/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#339#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-service-util/src/main/java/com/bbu/gmall/manage/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/bbu/gmall/GmallManageServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-service-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-comment-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/test/java/com/bbu/gmall/manage/GmallManageWebApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-service/src/test/java/com/bbu/gmall/manage/GmallManageServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1176,7 +1746,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>gmall-user-web</last-edited>
+          <last-edited>gmall-item-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

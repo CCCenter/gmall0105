@@ -19,11 +19,9 @@ public class GmallManageServiceApplicationTests {
     public void contextLoads() {
 
         Jedis jedis = redisUtil.getJedis();
-        System.out.println();
-        System.out.println();
-        System.out.println(jedis);
-        System.out.println();
-        System.out.println();
+        String skuId = "123";
+        jedis.set("sku:" + skuId + ":info", "1");
+        System.out.println(jedis.get("hello"));
     }
 
 }

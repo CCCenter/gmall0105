@@ -6,6 +6,7 @@ import com.bbu.gmall.beans.PmsBaseSaleAttr;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Set;
 
 @Service
 public interface AttrService {
@@ -13,4 +14,6 @@ public interface AttrService {
     List<PmsBaseAttrValue> attrValueList(String attrId);
     String saveAttrInfo(PmsBaseAttrInfo pmsBaseAttrInfo);
     List<PmsBaseSaleAttr> baseSaleAttrList();
+
+    List<PmsBaseAttrInfo> getAttrValueListByValueId(Set<String> valueIdSet);
 }

@@ -7,12 +7,15 @@ import com.bbu.gmall.beans.PmsSkuInfo;
 import com.bbu.gmall.beans.PmsSkuSaleAttrValue;
 import com.bbu.gmall.service.SkuService;
 import com.bbu.gmall.service.SpuService;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import sun.misc.Request;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -27,9 +30,11 @@ public class ItemController {
     SpuService spuService;
 
     @RequestMapping("/{skuId}.html")
-    public String item(@PathVariable(name = "skuId") String skuId, Model model) {
+    public String item(@PathVariable(name = "skuId") String skuId, Model model, HttpServletRequest Request) {
+        String ip = Request.getRemoteAddr();
 
-        PmsSkuInfo pmsSkuInfo = skuService.getSkuById(skuId);
+
+        PmsSkuInfo pmsSkuInfo = skuService.getSkuById(skuId,ip);
         //sku对象
         model.addAttribute("skuInfo",pmsSkuInfo);
         //销售属性列表

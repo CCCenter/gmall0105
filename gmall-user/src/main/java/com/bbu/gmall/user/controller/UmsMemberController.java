@@ -18,9 +18,8 @@ public class UmsMemberController {
     MemberService memberService;
 
     @RequestMapping("index")
-    @ResponseBody
     public String index() {
-        return "hello world";
+        return "index";
     }
 
     @RequestMapping("getAllUser")

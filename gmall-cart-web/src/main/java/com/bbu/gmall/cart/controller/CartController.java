@@ -29,22 +29,19 @@ public class CartController {
     @Reference
     CartService cartService;
 
-    @RequestMapping("/toTrade")
-    @LoginRequired(loginSuccess = true)
-    public String toTrade(String isChecked, String skuId,Model model) {
-        return "toTradeTest";
-    }
-
     @RequestMapping("/checkCart")
     @LoginRequired(loginSuccess = false)
-    public String checkCart(String isChecked, String skuId,Model model) {
-        String memberId = "1";
+    public String checkCart(String isChecked, String skuId,Model model,HttpServletRequest request) {
+
+        String memberId = (String) request.getAttribute("memberId");
+        String nickname = (String) request.getAttribute("nickname");
+
         OmsCartItem omsCartItem = new OmsCartItem();
 
         omsCartItem.setIsChecked(isChecked);
         omsCartItem.setMemberId(memberId);
         omsCartItem.setProductSkuId(skuId);
-            cartService.updateCartBySkuId(omsCartItem);
+        cartService.updateCartBySkuId(omsCartItem);
 
         List<OmsCartItem> cartList = cartService.getCartList(memberId);
 
@@ -60,7 +57,9 @@ public class CartController {
     public String cartList(Model model, HttpServletRequest request) {
         List<OmsCartItem> omsCartItems = new ArrayList<>();
 
-        String memberId = "1";
+        String memberId = (String) request.getAttribute("memberId");
+        String nickname = (String) request.getAttribute("nickname");
+
         if (StringUtils.isNotBlank(memberId)) {
             //查询数据库
             omsCartItems = cartService.getCartList(memberId);
@@ -120,7 +119,7 @@ public class CartController {
         omsCartItem.setQuantity(quantity);
 
         //判断用户是否登陆
-        String memberId = "1";
+        String memberId = (String) request.getAttribute("memberId");
 
         if (StringUtils.isBlank(memberId)) {
             //没有登陆

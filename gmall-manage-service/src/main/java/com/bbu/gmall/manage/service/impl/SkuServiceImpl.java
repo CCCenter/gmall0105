@@ -2,10 +2,7 @@ package com.bbu.gmall.manage.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
-import com.bbu.gmall.beans.PmsSkuAttrValue;
-import com.bbu.gmall.beans.PmsSkuImage;
-import com.bbu.gmall.beans.PmsSkuInfo;
-import com.bbu.gmall.beans.PmsSkuSaleAttrValue;
+import com.bbu.gmall.beans.*;
 import com.bbu.gmall.manage.mapper.PmsSkuAttrValueMapper;
 import com.bbu.gmall.manage.mapper.PmsSkuImageMapper;
 import com.bbu.gmall.manage.mapper.PmsSkuInfoMapper;
@@ -162,6 +159,18 @@ public class SkuServiceImpl implements SkuService {
             pmsSkuInfo.setSkuAttrValueList(pmsSkuAttrValues);
         }
         return pmsSkuInfos;
+    }
+
+    @Override
+    public boolean checkPrice(OmsCartItem omsCartItem) {
+        boolean b = false;
+        PmsSkuInfo skuInfo = new PmsSkuInfo();
+        skuInfo.setId(omsCartItem.getProductSkuId());
+        PmsSkuInfo pmsSkuInfo = pmsSkuInfoMapper.selectOne(skuInfo);
+        if(pmsSkuInfo.getPrice().compareTo(omsCartItem.getPrice()) == 0){
+            b = true;
+        }
+        return b;
     }
 
     public PmsSkuInfo getSkuByIdFromDb(String skuId) {

@@ -16,7 +16,7 @@ public class JwtUtil {
     }
 
     public  static Map<String,Object>  decode(String token ,String key,String salt){
-        Claims claims=null;
+        Claims claims = null;
         if (salt!=null){
             key+=salt;
         }

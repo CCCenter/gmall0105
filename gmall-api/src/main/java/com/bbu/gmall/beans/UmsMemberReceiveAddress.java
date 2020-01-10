@@ -1,6 +1,7 @@
 package com.bbu.gmall.beans;
 
 import javax.persistence.Id;
+import javax.persistence.Transient;
 import java.io.Serializable;
 
 public class UmsMemberReceiveAddress implements Serializable {
@@ -16,6 +17,17 @@ public class UmsMemberReceiveAddress implements Serializable {
     private String city;
     private String region;
     private String detailAddress;
+
+    @Transient
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public String getId() {
         return id;

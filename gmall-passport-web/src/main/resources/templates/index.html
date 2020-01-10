@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="/css/gm1.css"/>
+    <script src="//tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=1313097522" type="text/javascript" charset="utf-8"></script>
     <script src="/js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
     <title>登录</title>
 </head>
@@ -43,26 +44,33 @@
                     <li class="bri">
                         <a href="">忘记密码</a>
                     </li>
+
                     <li class="ent">
                         <button id="btn2" type="button" class="btn2"><a href="javascript:submitLogin();" class="a">登
                             &nbsp; &nbsp;录</a></button>
                     </li>
                 </ul>
-                <input type="hidden" id="originUrl" name="originUrl" th:value="${originUrl}"/>
+                <input id="ReturnUrl" type="hidden" th:value="${ReturnUrl}"/>
             </form>
         </div>
         <div class="si_out">
             <h5 class="rig">
                 <img src="/img/4de5019d2404d347897dee637895d02b_25.png"/>
                 <span><a href="#">立即注册</a></span>
+                <wb:login-button type="6,2" onclick="wb_login()">登录按钮</wb:login-button>
             </h5>
         </div>
     </div>
 </div>
 <!--底部-->
-<input id="ReturnUrl" type="text" th:value="${ReturnUrl}"/>
+
 </body>
 <script language="JavaScript">
+
+    function wb_login() {
+        window.location.href="https://api.weibo.com/oauth2/authorize?client_id=1313097522&redirect_uri=http://passport.gmall.com:8085/vlogin";
+    }
+
     var btn2 = document.getElementsByClassName('btn2')[0];
     var user = document.getElementsByClassName('user')[0];
     var pass = document.getElementsByClassName('password')[0];

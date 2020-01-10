@@ -49,30 +49,39 @@ public class CartServerImpl implements CartService {
 
             Example example = new Example(OmsCartItem.class);
             example.createCriteria().andEqualTo("memberId", omsCartItem.getMemberId())
-                    .andEqualTo("productSkuId",omsCartItem.getProductSkuId());
-            omsCartItemMapper.updateByExampleSelective(omsCartItem,example);
+                    .andEqualTo("productSkuId", omsCartItem.getProductSkuId());
+            omsCartItemMapper.updateByExampleSelective(omsCartItem, example);
         }
         flushCartCache(omsCartItem.getMemberId());
     }
 
     @Override
-    public void flushCartCache(String memberId) {
+    public List<OmsCartItem> flushCartCache(String memberId) {
+        List<OmsCartItem> omsCartItems = null;
+        Jedis jedis = null;
+        Map<String, String> map = new HashMap<>();
         if (StringUtils.isNotBlank(memberId)) {
-            OmsCartItem omsCartItem = new OmsCartItem();
-            omsCartItem.setMemberId(memberId);
-            List<OmsCartItem> omsCartItems = omsCartItemMapper.select(omsCartItem);
-            Map<String, String> map = new HashMap<>();
             //同步到redis
-            Jedis jedis = redisUtil.getJedis();
-            for (OmsCartItem cartItem : omsCartItems) {
-                cartItem.setTotalPrice(cartItem.getPrice().multiply(new BigDecimal(cartItem.getQuantity())));
-                map.put(cartItem.getProductSkuId(), JSON.toJSONString(cartItem));
-            }
-            jedis.del("user:" + memberId + ":cart");
-            jedis.hmset("user:" + memberId + ":cart", map);
+            try {
+                OmsCartItem omsCartItem = new OmsCartItem();
+                omsCartItem.setMemberId(memberId);
+                omsCartItems = omsCartItemMapper.select(omsCartItem);
+                jedis = redisUtil.getJedis();
+                for (OmsCartItem cartItem : omsCartItems) {
+                    cartItem.setTotalPrice(cartItem.getPrice().multiply(new BigDecimal(cartItem.getQuantity())));
+                    map.put(cartItem.getProductSkuId(), JSON.toJSONString(cartItem));
+                }
+                jedis.del("user:" + memberId + ":cart");
+                jedis.hmset("user:" + memberId + ":cart", map);
 
-            jedis.close();
+            } finally {
+                if (jedis != null) {
+                    jedis.close();
+                }
+            }
+
         }
+        return omsCartItems;
     }
 
     @Override
@@ -83,11 +92,14 @@ public class CartServerImpl implements CartService {
             jedis = redisUtil.getJedis();
             String key = "user:" + memberId + ":cart";
             List<String> hvals = jedis.hvals(key);
-            for (String hval : hvals) {
-                OmsCartItem omsCartItem = JSON.parseObject(hval, OmsCartItem.class);
-                omsCartItemList.add(omsCartItem);
+            if (hvals == null) {
+                for (String hval : hvals) {
+                    OmsCartItem omsCartItem = JSON.parseObject(hval, OmsCartItem.class);
+                    omsCartItemList.add(omsCartItem);
+                }
+            } else {
+                omsCartItemList = flushCartCache(memberId);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
 //            String message = e.getMessage();
@@ -97,5 +109,11 @@ public class CartServerImpl implements CartService {
             jedis.close();
         }
         return omsCartItemList;
+    }
+
+    @Override
+    public OmsCartItem getCartItem(OmsCartItem omsCartItem) {
+        OmsCartItem omsCartItemFromDB = omsCartItemMapper.selectByPrimaryKey(omsCartItem.getId());
+        return omsCartItemFromDB;
     }
 }

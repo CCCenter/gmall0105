@@ -12,11 +12,33 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 @RunWith(SpringRunner.class)
 class GmallItemWebApplicationTests {
-    @Autowired
-    CartService cartService;
+
     @Test
     void contextLoads() {
+        for (long i = 10000; i < 99999; i++){
+            long x = i * i;
+            if(hasEquale(i,x)){
+                System.out.println(i+","+x);
+            }
+        }
+    }
 
+    private Boolean hasEquale(long i, long x) {
+        boolean b = true;
+        String iStr = String.valueOf(i);
+        String xStr = String.valueOf(x);
+        char[] iCh = iStr.toCharArray();
+        char[] xCh = xStr.toCharArray();
+
+        for(int j = 0; j < iCh.length; j ++){
+            for (int z = 0 ; z < xCh.length; z ++){
+                if(iCh[j] == xCh[z]){
+                    b = false;
+                    return b;
+                }
+            }
+        }
+        return b;
     }
 
 }

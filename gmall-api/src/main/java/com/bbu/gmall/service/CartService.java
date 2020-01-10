@@ -13,7 +13,9 @@ public interface CartService {
 
     void updateCartBySkuId(OmsCartItem omsCartItemFromDb);
 
-    void flushCartCache(String memberId);
+    List<OmsCartItem> flushCartCache(String memberId);
 
     List<OmsCartItem> getCartList(String memberId);
+
+    OmsCartItem getCartItem(OmsCartItem omsCartItem);
 }
